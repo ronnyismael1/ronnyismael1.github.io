@@ -12,11 +12,11 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    /*background-image: url(https://media.giphy.com/media/8zNfMhtQ6jh3XZZlwJ/giphy-downsized-large.gif);*/
-    background-image: url(https://media.giphy.com/media/xTiTniuHdUjpOlNo1q/giphy.gif);
+    background-image: url('images/background.gif');
+    /*GIF Credit: https://media.giphy.com/media/8zNfMhtQ6jh3XZZlwJ/giphy-downsized-large.gif*/
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #520b6c;
+    background-color: #3b084e;
 }
 .container{
     padding: 10px 10%;
