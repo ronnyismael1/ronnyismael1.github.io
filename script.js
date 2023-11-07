@@ -1,3 +1,4 @@
+// Function to select different tabs
 var tablinks = document.getElementsByClassName("tab-links");
 var tabcontents = document.getElementsByClassName("tab-contents");
 function opentab(tabname) {
@@ -9,4 +10,16 @@ function opentab(tabname) {
   }
   event.currentTarget.classList.add("active-link");
   document.getElementById(tabname).classList.add("active-tab");
+}
+
+// Function to open/close side menu
+var sidemenu = document.getElementById("sidemenu");
+function openmenu() {
+  var sidemenu = document.getElementById("sidemenu");
+
+  sidemenu.style.right = "0";
+}
+function closemenu() {
+  var sidemenu = document.getElementById("sidemenu");
+  sidemenu.style.right = "-200px";
 }

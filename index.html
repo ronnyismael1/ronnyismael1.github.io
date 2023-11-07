@@ -17,13 +17,15 @@
       <div class="container">
         <nav>
           <img src="images/logo.png" class="logo" />
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Projects</a></li>
             <li><a href="files/resume.pdf" download>Resume</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
           <h1>hi, i'm <span>ronny</span><br />from the bay area</h1>
@@ -187,26 +189,27 @@
     <!-- ----------- contact ----------  -->
     <div id="contact">
       <div class="container">
-        <div class="contact-left">
-          <h1 class="sub-title">Contact Me</h1>
-          <p><i class="fa-solid fa-paper-plane"></i> ronnynismael@gmail.com</p>
-          <p><i class="fa-solid fa-phone"></i> +1(209)614-9525</p>
-          <div class="social-icons">
-            <a href="https://github.com/ronnyismael1" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-            <a href="https://www.linkedin.com/in/ronnyismael/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> ronnynismael@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +1(209)614-9525</p>
+            <div class="social-icons">
+              <a href="https://github.com/ronnyismael1" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+              <a href="https://www.linkedin.com/in/ronnyismael/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="files/resume.pdf" download class="btn btn2">Download CV</a>
           </div>
-          <a href="files/resume.pdf" download class="btn btn2">Download CV</a>
-        </div>
-        <div class="contact-right">
-          <form>
-            <input type="text" name="Name" placeholder="Your Name" required>
-            <input type="email" name="Email" placeholder="Your Email" required>
-            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-            <button type="submit" class="btn btn2">Submit</button>
-          </form>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="text" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-
   </body>
 </html>
