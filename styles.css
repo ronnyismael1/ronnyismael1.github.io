@@ -4,6 +4,9 @@
   font-family: "Poppin", sans-serif;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #080808;
   color: #fff;
@@ -313,6 +316,11 @@ form .btn2 {
   font-size: 18px;
   margin-top: 20px;
   cursor: pointer;
+}
+#msg {
+  color: #61b752;
+  margin-top: -40px;
+  display: block;
 }
 
 /* ------------- css for small screens ------------- */
