@@ -44,3 +44,23 @@ document.addEventListener('DOMContentLoaded', function() {
       })
   })
 });
+
+document.addEventListener('DOMContentLoaded', typeWriter);
+let i = 0;
+let txt = "...";
+let speed = 400;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("typewrite").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  } else {
+    // Reset the text and start typing again after a delay
+    setTimeout(() => {
+      document.getElementById("typewrite").innerHTML = '';
+      i = 0;
+      typeWriter();
+    }, 500); // 500ms delay before starting to type again
+  }
+}

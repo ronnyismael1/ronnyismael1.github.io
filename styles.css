@@ -23,6 +23,17 @@ body {
   background-color: #3b084e;
   background-attachment: fixed;
 }
+#typewrite {
+  color: white;
+  display: inline-block;
+  width: 50px;
+  vertical-align: bottom;
+}
+#sub-intro {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 15%;
+  text-align: center;
+}
 .container {
   padding: 10px 10%;
 }
