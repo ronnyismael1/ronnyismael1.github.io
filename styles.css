@@ -117,6 +117,10 @@ nav ul li a:hover::after {
 .about-col-1 {
   flex-basis: 60%;
 }
+.about-col-1 p span {
+  font-weight: 600;
+  color: #fff;
+}
 .sub-title {
   font-size: 60px;
   font-weight: 600;
@@ -157,7 +161,7 @@ nav ul li a:hover::after {
   margin: 10px 0;
 }
 .tab-contents ul li span {
-  color: #9b1741;
+  color: #dd2e65;
   font-size: 15px;
 }
 .tab-contents {
@@ -172,6 +176,15 @@ nav ul li a:hover::after {
 .about-col-2 img {
   width: 100%;
   border-radius: 15px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-item {
+  flex: 1;
+  margin-right: 20px; /* Adjust as needed */
 }
 
 /* ---------- My Work -------- */

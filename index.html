@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ronny Ismael - Computer Engineering</title>
+    <title>Ronny Ismael - ePortfolio</title>
     <link rel="icon" href="images/head_logo.png">
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
@@ -22,7 +22,7 @@
           <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Projects</a></li>
+            <li><a href="#portfolio">Projects</a></li>
             <li><a href="files/resume.pdf" download>Resume</a></li>
             <li><a href="#contact">Contact</a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -46,26 +46,17 @@
           <div class="about-col-1">
             <h1 class="sub-title">About Me</h1>
             <p class="sub-p">
-              I am currently a working student based in the Bay Area. I have
-              achieved two associate degrees from Modesto Junior College in (1)
-              Mathematics and (2) Physics. Now, I am pursuing my bachelor's
-              degree in Computer Engineering with a planned certificate in
-              cyber-security. I am very active in the engineering community at
-              my school where I partake in two engineering clubs. Alongside my
-              education I am also employed full-time. I have held two industry
-              jobs. First being a robotics technician with Starship Technologies
-              where I lead the Silicon Valley team. Currently, I am working as
-              an engineering technician with the Nexest division of Teradyne
-              performing tests and maintenance of semiconductor testing
-              equipment alongside onsite engineers. Through my education and
-              work experience I have developed many industry skills ranging from
-              programming languages including Python, C, C++, Java, x86 assembly
-              language, and technical skills with my technician work relevance
-              with robotics and semiconductors.
+              <br />
+              Hi, I'm <span>Ronny Ismael</span>, a working student with a passion for anything technology or development related.
+              I am currently a student at San Jose State University pursuing a <span>B.S. in Computer Engineering</span> and a certificate 
+              in <span>Cyber-security</span> due to graduate Spring 2024. <br><br><br><span>Check out some of my work!</span><br>
+              
             </p>
-
             <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('education')">
+              <p class="tab-links active-link" onclick="opentab('ronny')">
+                More Info
+              </p>
+              <p class="tab-links" onclick="opentab('education')">
                 Education
               </p>
               <p class="tab-links" onclick="opentab('experience')">
@@ -73,7 +64,33 @@
               </p>
               <p class="tab-links" onclick="opentab('skills')">Skills</p>
             </div>
-            <div class="tab-contents active-tab" id="education">
+            <div class="tab-contents active-tab" id="ronny">
+              <div class="flex-container">
+                <ul class="flex-item">
+                  <li>
+                    <h3><i class="fa-solid fa-user"></i> Full Name:</h3>
+                    <p>Ronny N. Ismael</p>
+                    <br>
+                    <h3><i class="fa-solid fa-comments"></i> Pronouns:</h3>
+                    <p>He/Him/His</p>
+                    <br>
+                    <h3><i class="fa-solid fa-cake-candles"></i> Date of Birth:</h3>
+                    <p>September, 1999</p>
+                    <br>
+                    <h3><i class="fa-solid fa-map-pin"></i> Location:</h3>
+                    <p>San Jose, CA</p>
+                    <br>
+                    <h3><i class="fa-solid fa-envelope"></i> Email:</h3>
+                    <p>ronnynismael@gmail.com</p>
+                </ul>
+                <ul class="flex-item">
+                  <li>
+                    <h3><u>Quick-View Competencies:</u></h3>
+                    <p><br>Hey I want to be <br>an engineer!</p>
+                </ul>
+              </div>
+            </div>
+            <div class="tab-contents" id="education">
               <ul>
                 <li>
                   <span>San Jose State University, 2024</span> 
@@ -81,6 +98,7 @@
                   <br />➣ Certificate in Cyber-security
                 </li>
                 <li>
+                  <br />
                   <span>Modesto Junior College, 2021</span> 
                   <br />➣ A.S. Mathematics 
                   <br />➣ A.S. Physics
@@ -94,23 +112,34 @@
                   <br />Engineering Technician at Teradyne
                 </li>
                 <li>
+                  <br />
                   <span>Sep 2020 - Jun 2022</span> 
                   <br />Robot Technican at Starship Technologies
                 </li>
               </ul>
             </div>
             <div class="tab-contents" id="skills">
-              <ul>
-                <li><span>UI/UX</span><br />Desigining Web/App Interfaces</li>
-                <li>
-                  <span>Web Development</span><br />Desigining Web/App
-                  Interfaces
-                </li>
-                <li>
-                  <span>App Development</span><br />Desigining Web/App
-                  Interfaces
-                </li>
-              </ul>
+              <div class="flex-container">
+                <ul class="flex-item">
+                  <li>
+                    <h3><i class="fa-solid fa-file-code"></i> Programming Languages:</h3>
+                    <p>○ C<br>○ C++<br>○ Python<br>○ Java<br>○ JavaScript<br>○ HTML<br>○ CSS</p>
+                    <br>
+                    <h3><i class="fa-solid fa-computer"></i> Assembly Languages:</h3>
+                    <p>○ x86 assembly language<br>○ RISC-V</p>
+                    <br>
+                    <h3><i class="fa-brands fa-uncharted"></i> Software Development:</h3>
+                    <p>○ React Native<br>○ VBA</p>
+                </ul>
+                <ul class="flex-item">
+                  <li>
+                    <h3><i class="fa-solid fa-screwdriver-wrench"></i> System Tool:</h3>
+                    <p>○ Linux environment (SCP, SSH shells)<br>○ Jira (Project Management)<br>○ Confluence (Documentation Management)</p>
+                    <br>
+                    <h3><i class="fa-solid fa-users"></i> Other Skills:</h3>
+                    <p>○ Debugging and Troubleshooting<br>○ Task and Workflow Optimization<br>○ Project Handling and Team Leadership</p>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="about-col-2">
@@ -160,8 +189,8 @@
         <div class="row">
           <div class="contact-left">
             <h1 class="sub-title">Contact Me</h1>
-            <p><i class="fa-solid fa-paper-plane"></i> ronnynismael@gmail.com</p>
-            <p><i class="fa-solid fa-phone"></i> +1(209)614-9525</p>
+            <p><i class="fa-solid fa-envelope"></i></i> ronnynismael@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i></i> +1(209)614-9525</p>
             <div class="social-icons">
               <a href="https://github.com/ronnyismael1" target="_blank"><i class="fa-brands fa-square-github"></i></a>
               <a href="https://www.linkedin.com/in/ronnyismael/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>

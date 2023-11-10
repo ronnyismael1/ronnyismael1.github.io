@@ -45,11 +45,12 @@ document.addEventListener('DOMContentLoaded', function() {
   })
 });
 
+
+// Function to type out the dots
 document.addEventListener('DOMContentLoaded', typeWriter);
 let i = 0;
 let txt = "...";
 let speed = 400;
-
 function typeWriter() {
   if (i < txt.length) {
     document.getElementById("typewrite").innerHTML += txt.charAt(i);
