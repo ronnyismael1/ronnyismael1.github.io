@@ -18,7 +18,7 @@ body {
   min-height: 100vh;
   background-image: url("images/background.gif");
   /*GIF Credit: https://media.giphy.com/media/8zNfMhtQ6jh3XZZlwJ/giphy-downsized-large.gif*/
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: #180014;
   background-attachment: fixed;
