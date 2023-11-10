@@ -34,10 +34,17 @@ body {
   padding-top: 10%;
   text-align: center;
 }
+#bars-icon {
+  position: fixed;
+  top: 25px;
+  right: 50px;
+  z-index: 8;
+}
 .container {
   padding: 10px 10%;
 }
 nav {
+  /* position: fixed; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -303,7 +310,7 @@ nav ul li a:hover::after {
   margin-top: 30px;
 }
 .contact-left p i {
-  color: #59044b;
+  color: #c2c0c2;
   margin-right: 15px;
   font-size: 25px;
 }
@@ -312,8 +319,9 @@ nav ul li a:hover::after {
 }
 .social-icons a {
   text-decoration: none;
-  font-size: 30px;
-  margin-right: 15px;
+  font-size: 50px;
+  margin-right: 20px;
+  margin-top: 50px;
   color: #ababab;
   display: inline-block;
   transition: transform 0.5s
@@ -354,6 +362,10 @@ form .btn2 {
   display: block;
 }
 
+nav .fa-solid.show-on-scroll {
+  display: block !important;
+}
+
 /* ------------- css for small screens ------------- */
 nav .fa-solid {
   display: none;
@@ -374,14 +386,14 @@ nav .fa-solid {
     cursor: pointer;
   }
   nav ul {
-    background: #4d444b;
+    background: #4e424c;
     position: fixed;
     top: 0;
     right: -200px;
     width: 200px;
     height: 100vh;
     padding-top: 50px;
-    z-index: 2;
+    z-index: 9;
     transition: ease-in-out 0.4s;
   }
   nav ul li {
