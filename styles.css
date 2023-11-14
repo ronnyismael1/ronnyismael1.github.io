@@ -52,7 +52,7 @@ nav {
 }
 .logo {
   /*width: 140px;*/
-  width: 180px;
+  width: 172px;
 }
 nav ul li {
   display: inline-block;
@@ -376,6 +376,10 @@ nav .fa-solid {
   .header-text {
     margin-top: 50%;
     font-size: 16px;
+  }
+  .logo {
+    /*width: 140px;*/
+    width: 140px;
   }
   .header-text h1 {
     font-size: 30px;
