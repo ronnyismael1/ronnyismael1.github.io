@@ -368,7 +368,7 @@ nav .fa-solid.show-on-scroll {
   display: block !important;
 }
 
-/* ------------- css for small screens ------------- */
+/* ------------- css for small screens -------------- */
 nav .fa-solid {
   display: none;
 }
